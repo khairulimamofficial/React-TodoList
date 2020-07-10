@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+/* CSS Sidebar */
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 62px;
+  left: 0;
+  background-color: #F1F1F1;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidenav ul{
+  list-style-type: none;
+  padding-left: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidenav ul li a{
+  padding-top: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #707070;
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidenav ul li a:active {
+  color: #1B75BC;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  margin-left: 250px;
+  padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav ul li a {font-size: 18px;}
+}
+
+.main-home h1{
+  font-size: 24px;
+}
+body .modal-footer{
+  border: none;
+}
+
+
+/* input */
+.input-form form{
+  margin: 10px 0px;
+}
+.input-form form input{
+  margin-right: 20px;
+  border-color: #1B75BC;
+}
+.input-form form input{
+  margin-right: 20px;
+  border-color: #1B75BC;
+}
+
+::placeholder {
+  color: #909090;
+  font-size: 14px;
+  padding-left: 5px;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #909090;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #909090;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.input-form form button{
+  font-size: 14px;
+  border: none;
+  padding: 4px 25px;
+  background-color: #1B75BC;
+  color: #ffffff;
+}
+
+
+/* Card */
+
+.card .card-body{
+  padding: 10px;
+
+}
+
+.button-cust button{
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin: 10px;
+}
+
+.button-cust2 button{
+  border: none;
+  background-color: #e1e1e1;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 12px;
+}
+.button-cust2 p{
+  padding: 7px 10px;
+  font-size: 12px;
+  display: inline;
+}
+
+/* TodoList progress */
+.todoListMain {
+  top: 90px;
+  left: 700px;
+  position: absolute;
+}
+
+.card-cust li{
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.todo{
+  padding: 0px 10px;
+  
+}
+
+.theList {
+  padding: 0px;
+}
+
+
+/* Router My Profile */
+.profile img{
+  float: left;
+  margin-right: 20px;
+}
+.profile{
+  padding-bottom: 50px;
+  background-color: #FFF7C4;
+  margin-right: 500px;
+}
+.new2{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.new2 h1{
+  font-size: 24px;
+}
+.organization{
+  margin-bottom: 20px;
+}
+.organization table td{
+  padding: 5px;
+  font-size: 18px;   
+}
+.experiences table td{
+  padding: 5px;
+  font-size: 18px;
 }

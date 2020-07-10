@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add task 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand navbar-light sticky-top"
+    style={
+      Object {
+        "backgroundColor": "#E1E1E1",
+      }
+    }
+  >
+    <a
+      className="navbar-brand"
+      href="Home"
+    >
+      <img
+        alt="Brand"
+        className="d-inline-block align-top"
+        src="Logo-01.png"
+        width="150px"
+      />
+    </a>
+  </nav>,
+  <div
+    className="sidenav"
+  >
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/HowToUse"
+          onClick={[Function]}
+        >
+          How to use
+        </a>
+      </li>
+      <li>
+        <a
+          href="/OurFeature"
+          onClick={[Function]}
+        >
+          Our feature
+        </a>
+      </li>
+      <li>
+        <a
+          href="/MyProfile"
+          onClick={[Function]}
+        >
+          My profile
+        </a>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="main"
+  >
+    <div
+      className="todo-list"
+    >
+      <div
+        className="input-form"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            className="input"
+            onChange={[Function]}
+            placeholder="Enter task"
+            type="text"
+            value=""
+          />
+          <button
+            type="submit"
+          >
+            Add
+          </button>
+        </form>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "backgroundColor": "",
+            "width": "18rem",
+          }
+        }
+      >
+        <div
+          className="card-cust card-body"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          <div
+            className="todo"
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          >
+            Make your own list
+            <div
+              className="button-cust"
+            >
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="fotoku"
+                  height="20px"
+                  src="check.png"
+                />
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="fotoku"
+                  height="20px"
+                  src="trash.png"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="TodoListProgress"
+    >
+      <div
+        className="todoListMain input-form"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            placeholder="Enter progress"
+          />
+          <button
+            type="submit"
+          >
+            Add Progress
+          </button>
+        </form>
+        <ul
+          className="theList"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="modal-footer"
+  >
+    <p
+      style={
+        Object {
+          "color": "#909090",
+          "left": "82%",
+          "position": "fixed",
+          "top": "95%",
+        }
+      }
+    >
+      Copyright by Khairul Imam
+    </p>
+  </div>,
+]
+`;
+
+exports[`add task snapshot 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand navbar-light sticky-top"
+    style={
+      Object {
+        "backgroundColor": "#E1E1E1",
+      }
+    }
+  >
+    <a
+      className="navbar-brand"
+      href="Home"
+    >
+      <img
+        alt="Brand"
+        className="d-inline-block align-top"
+        src="Logo-01.png"
+        width="150px"
+      />
+    </a>
+  </nav>,
+  <div
+    className="sidenav"
+  >
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/HowToUse"
+          onClick={[Function]}
+        >
+          How to use
+        </a>
+      </li>
+      <li>
+        <a
+          href="/OurFeature"
+          onClick={[Function]}
+        >
+          Our feature
+        </a>
+      </li>
+      <li>
+        <a
+          href="/MyProfile"
+          onClick={[Function]}
+        >
+          My profile
+        </a>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="main"
+  >
+    <div
+      className="todo-list"
+    >
+      <div
+        className="input-form"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            className="input"
+            onChange={[Function]}
+            placeholder="Enter task"
+            type="text"
+            value=""
+          />
+          <button
+            type="submit"
+          >
+            Add
+          </button>
+        </form>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "backgroundColor": "",
+            "width": "18rem",
+          }
+        }
+      >
+        <div
+          className="card-cust card-body"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          <div
+            className="todo"
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          >
+            Make your own list
+            <div
+              className="button-cust"
+            >
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="fotoku"
+                  height="20px"
+                  src="check.png"
+                />
+              </button>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="fotoku"
+                  height="20px"
+                  src="trash.png"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="TodoListProgress"
+    >
+      <div
+        className="todoListMain input-form"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            placeholder="Enter progress"
+          />
+          <button
+            type="submit"
+          >
+            Add Progress
+          </button>
+        </form>
+        <ul
+          className="theList"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="modal-footer"
+  >
+    <p
+      style={
+        Object {
+          "color": "#909090",
+          "left": "82%",
+          "position": "fixed",
+          "top": "95%",
+        }
+      }
+    >
+      Copyright by Khairul Imam
+    </p>
+  </div>,
+]
+`;
